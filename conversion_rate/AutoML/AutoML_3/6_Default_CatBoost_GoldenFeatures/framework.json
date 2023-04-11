@@ -1,0 +1,1196 @@
+{
+    "uid": "53742edc-5e72-4db8-ac8c-d115581c9cf1",
+    "name": "6_Default_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.0529305027
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "sum",
+                        "score": 0.0574315467
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "multiply",
+                        "score": 0.091224598
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.0916201157
+                    },
+                    {
+                        "feature1": "age",
+                        "feature2": "total_pages_visited",
+                        "operation": "diff",
+                        "score": 0.1057011068
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "ratio",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "total_pages_visited",
+                        "feature2": "new_user",
+                        "operation": "multiply",
+                        "score": 0.1126919343
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "total_pages_visited",
+                        "operation": "ratio",
+                        "score": 0.1227001631
+                    },
+                    {
+                        "feature1": "new_user",
+                        "feature2": "age",
+                        "operation": "ratio",
+                        "score": 0.13625079
+                    }
+                ],
+                "new_columns": [
+                    "new_user_diff_total_pages_visited",
+                    "total_pages_visited_sum_new_user",
+                    "total_pages_visited_multiply_age",
+                    "age_ratio_total_pages_visited",
+                    "total_pages_visited_ratio_age",
+                    "age_diff_total_pages_visited",
+                    "total_pages_visited_ratio_new_user",
+                    "total_pages_visited_multiply_new_user",
+                    "new_user_ratio_total_pages_visited",
+                    "new_user_ratio_age"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_3",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "62024bd2-f30a-49d4-be4c-cfee1b049e79",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 84
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "a0b29729-936c-45c3-bba6-baeef0e5e78b",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 56
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b2eaabb0-5ad0-473f-a7a0-5b4b576f1c2c",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 29
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "019f756c-de23-43bb-aeb7-5560a74a45c6",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 99
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "2a5b64bc-0807-4871-a030-b99619e8379a",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 85
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "adab3c5f-5264-4e12-8210-f8fd29f95c51",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_5",
+            "best_ntree_limit": 112
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "84ae0a7d-a939-4f54-b50f-5b9fdd3721ce",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_6",
+            "best_ntree_limit": 215
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "82654bd9-63a4-416c-82aa-84d3886bf0fe",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_7",
+            "best_ntree_limit": 176
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "c9bda6f4-5f00-4a2a-befd-c242372ff8a0",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_8",
+            "best_ntree_limit": 37
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "5b1d24d5-6a49-4384-9bbb-d3d649edaf7a",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "learning_rate": 0.1,
+                "depth": 6,
+                "rsm": 1,
+                "loss_function": "Logloss",
+                "seed": 6,
+                "eval_metric": "F1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_9",
+            "best_ntree_limit": 21
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_3",
+                "ml_task": "binary_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_3\\X.data",
+            "y_path": "AutoML_3\\y.data",
+            "results_path": "AutoML_3",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "learning_rate": 0.1,
+            "depth": 6,
+            "rsm": 1,
+            "loss_function": "Logloss",
+            "seed": 6,
+            "eval_metric": "F1",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "6_Default_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_0.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_1.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_2.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_3.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_4.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_5.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_6.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_7.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_8.catboost",
+        "6_Default_CatBoost_GoldenFeatures\\learner_fold_9.catboost"
+    ],
+    "predictions_fname": "6_Default_CatBoost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": -0.7671681811410697,
+    "train_time": 140.65367674827576,
+    "is_stacked": false,
+    "threshold": 0.45959566633826343
+}

@@ -1,0 +1,7 @@
+name,model_type,metric_type,metric_value,train_time
+1_DecisionTree,Decision Tree,logloss,0.05013053923254215,34.58
+2_DecisionTree,Decision Tree,logloss,0.046209528400206715,34.79
+3_DecisionTree,Decision Tree,logloss,0.046209528400206715,34.88
+4_Default_LightGBM,LightGBM,logloss,0.040954162049609714,44.36
+5_Default_Xgboost,Xgboost,logloss,0.040587332969302614,51.39
+6_Default_CatBoost,CatBoost,logloss,0.04035588830495566,164.55

@@ -1,0 +1,318 @@
+{
+    "uid": "8cd66c3d-e7fb-44e7-a4c6-b3b826d79a89",
+    "name": "11_Xgboost",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int"
+                    ],
+                    "source": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int"
+                    ],
+                    "source": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int"
+                    ],
+                    "source": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int"
+                    ],
+                    "source": [
+                        "categorical_to_int"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "a4ea2b2b-6192-42dd-81d6-a7aad31f95a6",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 7,
+                "min_child_weight": 50,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 33
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "c832329f-bb67-4f4a-8ca9-537a063a3342",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 7,
+                "min_child_weight": 50,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 53
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "bef38cd2-b8fb-41a2-a1e3-836ef1c18046",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 7,
+                "min_child_weight": 50,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 57
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4e70c089-d955-461b-acd4-2b7b5d74cc3f",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "objective": "binary:logistic",
+                "eta": 0.1,
+                "max_depth": 7,
+                "min_child_weight": 50,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 134
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "country": [
+                    "categorical_to_int"
+                ],
+                "source": [
+                    "categorical_to_int"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 4,
+            "shuffle": false,
+            "stratify": true,
+            "X_path": "AutoML_6\\X.data",
+            "y_path": "AutoML_6\\y.data",
+            "results_path": "AutoML_6"
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1242,
+            "objective": "binary:logistic",
+            "eta": 0.1,
+            "max_depth": 7,
+            "min_child_weight": 50,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "eval_metric": "f1",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "11_Xgboost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 90.0
+    },
+    "saved": [
+        "11_Xgboost\\learner_fold_0.xgboost",
+        "11_Xgboost\\learner_fold_1.xgboost",
+        "11_Xgboost\\learner_fold_2.xgboost",
+        "11_Xgboost\\learner_fold_3.xgboost"
+    ],
+    "predictions_fname": "11_Xgboost\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": -0.7627962796279629,
+    "train_time": 101.6341004371643,
+    "is_stacked": false,
+    "threshold": 0.49499621987342834
+}

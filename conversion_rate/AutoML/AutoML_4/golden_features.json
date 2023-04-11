@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "age",
+            "feature2": "total_pages_visited",
+            "operation": "ratio",
+            "score": 0.0652382023
+        },
+        {
+            "feature1": "total_pages_visited",
+            "feature2": "age",
+            "operation": "ratio",
+            "score": 0.0652382023
+        },
+        {
+            "feature1": "new_user",
+            "feature2": "total_pages_visited",
+            "operation": "diff",
+            "score": 0.067603845
+        },
+        {
+            "feature1": "total_pages_visited",
+            "feature2": "new_user",
+            "operation": "sum",
+            "score": 0.07814149
+        },
+        {
+            "feature1": "age",
+            "feature2": "total_pages_visited",
+            "operation": "diff",
+            "score": 0.0982332345
+        },
+        {
+            "feature1": "new_user",
+            "feature2": "total_pages_visited",
+            "operation": "ratio",
+            "score": 0.1067064477
+        },
+        {
+            "feature1": "total_pages_visited",
+            "feature2": "new_user",
+            "operation": "ratio",
+            "score": 0.1131835828
+        },
+        {
+            "feature1": "total_pages_visited",
+            "feature2": "new_user",
+            "operation": "multiply",
+            "score": 0.1131835828
+        },
+        {
+            "feature1": "new_user",
+            "feature2": "age",
+            "operation": "sum",
+            "score": 0.1367921624
+        },
+        {
+            "feature1": "age",
+            "feature2": "new_user",
+            "operation": "diff",
+            "score": 0.1391524752
+        }
+    ],
+    "new_columns": [
+        "age_ratio_total_pages_visited",
+        "total_pages_visited_ratio_age",
+        "new_user_diff_total_pages_visited",
+        "total_pages_visited_sum_new_user",
+        "age_diff_total_pages_visited",
+        "new_user_ratio_total_pages_visited",
+        "total_pages_visited_ratio_new_user",
+        "total_pages_visited_multiply_new_user",
+        "new_user_sum_age",
+        "age_diff_new_user"
+    ],
+    "ml_task": "binary_classification"
+}

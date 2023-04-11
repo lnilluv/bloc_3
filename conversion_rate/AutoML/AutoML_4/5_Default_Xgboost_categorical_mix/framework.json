@@ -1,0 +1,860 @@
+{
+    "uid": "4b07bac5-a88d-4846-b938-c35524d6a013",
+    "name": "5_Default_Xgboost_categorical_mix",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_onehot",
+                    "convert_params": {
+                        "country": {
+                            "new_columns": [
+                                "country_China",
+                                "country_Germany",
+                                "country_UK",
+                                "country_US"
+                            ],
+                            "unique_values": [
+                                "China",
+                                "Germany",
+                                "UK",
+                                "US"
+                            ],
+                            "old_column": "country"
+                        },
+                        "source": {
+                            "new_columns": [
+                                "source_Ads",
+                                "source_Direct",
+                                "source_Seo"
+                            ],
+                            "unique_values": [
+                                "Ads",
+                                "Direct",
+                                "Seo"
+                            ],
+                            "old_column": "source"
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_onehot"
+                    ],
+                    "source": [
+                        "categorical_to_onehot"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "da788c44-097f-477b-805c-0d57cce3788d",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 93
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "ccfca967-d95e-4a73-be9f-42dae84240a3",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 205
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "65f9b215-ab3d-4ab7-8ee3-6bdb53f3f7dd",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 94
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "0a0d0a1b-2052-436f-9a1e-d4b35977e255",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 20
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "437e38ba-e556-4acb-948c-9fdef4af74d3",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 87
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "e5856783-3797-4344-8a6f-f83744dd3cbc",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_5",
+            "best_ntree_limit": 153
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "22f30112-149f-4e22-b904-e5d53d6c219a",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_6",
+            "best_ntree_limit": 81
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "ec2b963f-aa78-4654-a13f-169438ab30eb",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_7",
+            "best_ntree_limit": 80
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "7687b9ba-43b5-4075-a64e-455820b01040",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_8",
+            "best_ntree_limit": 53
+        },
+        {
+            "library_version": "1.7.1",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "14323c8a-eba1-4aed-9ebf-3d4c63fccdcc",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "objective": "binary:logistic",
+                "eta": 0.075,
+                "max_depth": 6,
+                "min_child_weight": 1,
+                "subsample": 1.0,
+                "colsample_bytree": 1.0,
+                "seed": 5,
+                "eval_metric": "f1",
+                "explain_level": 0
+            },
+            "name": "learner_fold_9",
+            "best_ntree_limit": 21
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "country": [
+                    "categorical_to_onehot"
+                ],
+                "source": [
+                    "categorical_to_onehot"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_4\\X.data",
+            "y_path": "AutoML_4\\y.data",
+            "results_path": "AutoML_4",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "objective": "binary:logistic",
+            "eta": 0.075,
+            "max_depth": 6,
+            "min_child_weight": 1,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "seed": 5,
+            "eval_metric": "f1",
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "5_Default_Xgboost_categorical_mix",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_categorical_mix",
+        "max_time_for_learner": 216.0
+    },
+    "saved": [
+        "5_Default_Xgboost_categorical_mix\\learner_fold_0.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_1.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_2.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_3.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_4.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_5.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_6.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_7.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_8.xgboost",
+        "5_Default_Xgboost_categorical_mix\\learner_fold_9.xgboost"
+    ],
+    "predictions_fname": "5_Default_Xgboost_categorical_mix\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": -0.7659203646601421,
+    "train_time": 219.50904273986816,
+    "is_stacked": false,
+    "threshold": 0.5410387516021729
+}

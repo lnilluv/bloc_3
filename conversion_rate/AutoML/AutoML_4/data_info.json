@@ -1,0 +1,35 @@
+{
+    "columns": [
+        "country",
+        "age",
+        "new_user",
+        "source",
+        "total_pages_visited"
+    ],
+    "rows": 256122,
+    "cols": 5,
+    "target_is_numeric": true,
+    "columns_info": {
+        "country": [
+            "categorical",
+            "few_categories"
+        ],
+        "age": [
+            "scale"
+        ],
+        "new_user": [
+            "scale"
+        ],
+        "source": [
+            "categorical",
+            "few_categories"
+        ],
+        "total_pages_visited": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 5,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

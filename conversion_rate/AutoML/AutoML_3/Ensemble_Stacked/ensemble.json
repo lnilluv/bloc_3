@@ -1,0 +1,21 @@
+{
+    "name": "Ensemble_Stacked",
+    "ml_task": "binary_classification",
+    "optimize_metric": "f1",
+    "selected_models": [
+        {
+            "model": "36_CatBoost_GoldenFeatures_Stacked",
+            "repeat": 23.0
+        },
+        {
+            "model": "38_CatBoost",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble_Stacked\\predictions_ensemble.csv",
+    "metric_name": "f1",
+    "final_loss": -0.7681127178346311,
+    "train_time": 60.91563630104065,
+    "is_stacked": true,
+    "threshold": 0.48509157356647914
+}

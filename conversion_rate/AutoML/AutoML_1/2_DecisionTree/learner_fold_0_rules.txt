@@ -1,0 +1,16 @@
+if (total_pages_visited <= 12.5) and (total_pages_visited <= 10.5) and (total_pages_visited <= 8.5) then class: 0 (proba: 99.77%) | based on 149,566 samples
+
+if (total_pages_visited <= 12.5) and (total_pages_visited <= 10.5) and (total_pages_visited > 8.5) then class: 0 (proba: 95.71%) | based on 11,029 samples
+
+if (total_pages_visited <= 12.5) and (total_pages_visited > 10.5) and (new_user > 0.5) then class: 0 (proba: 92.54%) | based on 3,004 samples
+
+if (total_pages_visited > 12.5) and (total_pages_visited > 14.5) and (country > 0.5) then class: 1 (proba: 91.96%) | based on 2,949 samples
+
+if (total_pages_visited <= 12.5) and (total_pages_visited > 10.5) and (new_user <= 0.5) then class: 0 (proba: 67.65%) | based on 1,855 samples
+
+if (total_pages_visited > 12.5) and (total_pages_visited <= 14.5) and (new_user <= 0.5) then class: 1 (proba: 68.05%) | based on 1,133 samples
+
+if (total_pages_visited > 12.5) and (total_pages_visited <= 14.5) and (new_user > 0.5) then class: 0 (proba: 72.67%) | based on 1,105 samples
+
+if (total_pages_visited > 12.5) and (total_pages_visited > 14.5) and (country <= 0.5) then class: 0 (proba: 79.44%) | based on 107 samples
+

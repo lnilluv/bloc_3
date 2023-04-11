@@ -1,0 +1,1105 @@
+{
+    "uid": "4571dfc6-7ada-445f-85fb-95dd457a072f",
+    "name": "7_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2551291143952552,
+                        8.266971269604996,
+                        0.46439077669377155,
+                        0.8529548677142885,
+                        3.333294883581667
+                    ],
+                    "mean": [
+                        2.034024701855459,
+                        30.57600353999193,
+                        0.685313805534708,
+                        1.2104733437739958,
+                        4.868864122442074
+                    ],
+                    "var": [
+                        1.5753490938026178,
+                        68.34281397247445,
+                        0.21565879347824438,
+                        0.7275320063574995,
+                        11.110854780911719
+                    ],
+                    "n_samples_seen": 230509,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.254509057416763,
+                        8.271421872928153,
+                        0.46430242660885424,
+                        0.8530561307012547,
+                        3.335972987615319
+                    ],
+                    "mean": [
+                        2.0357469773414487,
+                        30.578563092981184,
+                        0.6855350550303893,
+                        1.2091415085745025,
+                        4.874495139018433
+                    ],
+                    "var": [
+                        1.573792975140695,
+                        68.41641979995427,
+                        0.21557674335487045,
+                        0.7277047621269962,
+                        11.128715774099076
+                    ],
+                    "n_samples_seen": 230509,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2553039078403994,
+                        8.263969580567494,
+                        0.4644231155530939,
+                        0.8534096217984006,
+                        3.3387733558386783
+                    ],
+                    "mean": [
+                        2.0342327881653723,
+                        30.56391045941608,
+                        0.6852327447833065,
+                        1.208259945338597,
+                        4.872009891111015
+                    ],
+                    "var": [
+                        1.575787901039378,
+                        68.29319322854488,
+                        0.21568883026004243,
+                        0.7283079825780892,
+                        11.14740752165827
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.254336671812829,
+                        8.272572369508202,
+                        0.46432787958400135,
+                        0.8532227409915482,
+                        3.3345174504062287
+                    ],
+                    "mean": [
+                        2.034644917790985,
+                        30.57115526441369,
+                        0.6854713461455034,
+                        1.2092317036137261,
+                        4.874929504142988
+                    ],
+                    "var": [
+                        1.5733604862544845,
+                        68.43545360875055,
+                        0.21560037975897484,
+                        0.7279890457451305,
+                        11.119006627063655
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2541917994054457,
+                        8.26505896785532,
+                        0.4642151446822244,
+                        0.8528556531382561,
+                        3.3339428648584697
+                    ],
+                    "mean": [
+                        2.0361025552036787,
+                        30.57265628389224,
+                        0.6857533295735543,
+                        1.2099908897661706,
+                        4.870127109452953
+                    ],
+                    "var": [
+                        1.5729970696958697,
+                        68.31119974212562,
+                        0.21549570055233855,
+                        0.7273627650898813,
+                        11.1151750261407
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2550291022395008,
+                        8.274359489014191,
+                        0.4639612000800276,
+                        0.8529521411968201,
+                        3.3344067683960645
+                    ],
+                    "mean": [
+                        2.034106980174396,
+                        30.576261333564705,
+                        0.6863867077350223,
+                        1.209960522320073,
+                        4.871454600668084
+                    ],
+                    "var": [
+                        1.5750980474680873,
+                        68.46502495343918,
+                        0.21525999517969943,
+                        0.7275273551722401,
+                        11.118268497125486
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2547114231229615,
+                        8.266725191129154,
+                        0.4644265760014334,
+                        0.8529060825558531,
+                        3.335639611626823
+                    ],
+                    "mean": [
+                        2.0354041039434296,
+                        30.56617066504707,
+                        0.6852240683701358,
+                        1.2096308186195828,
+                        4.8697366708602665
+                    ],
+                    "var": [
+                        1.5743007553152475,
+                        68.33874538564936,
+                        0.21569204449641516,
+                        0.7274487856607718,
+                        11.126491618653944
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.255269199111643,
+                        8.274553033231845,
+                        0.46435733133278184,
+                        0.8529852509486421,
+                        3.3343942487051685
+                    ],
+                    "mean": [
+                        2.0341113183809814,
+                        30.585783697019654,
+                        0.6853975966335517,
+                        1.2100429482451955,
+                        4.870760487614421
+                    ],
+                    "var": [
+                        1.5757007622383856,
+                        68.46822789976632,
+                        0.21562773116250292,
+                        0.7275838383359179,
+                        11.118185005798106
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.2548526757260205,
+                        8.275537651497782,
+                        0.4644750025532103,
+                        0.8527805789862082,
+                        3.33271938567849
+                    ],
+                    "mean": [
+                        2.034553815452692,
+                        30.575328619148845,
+                        0.6851025985857446,
+                        1.210398681185198,
+                        4.869059910632944
+                    ],
+                    "var": [
+                        1.5746552377767533,
+                        68.48452342135742,
+                        0.2157370279968047,
+                        0.7272347158960525,
+                        11.107018503677212
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        },
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "country": {
+                            "China": 0,
+                            "Germany": 1,
+                            "UK": 2,
+                            "US": 3
+                        },
+                        "source": {
+                            "Ads": 0,
+                            "Direct": 1,
+                            "Seo": 2
+                        }
+                    },
+                    "columns": [
+                        "country",
+                        "source"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        1.255161576714063,
+                        8.271744119322817,
+                        0.4644801889287608,
+                        0.853140555795434,
+                        3.335428845618101
+                    ],
+                    "mean": [
+                        2.034445360288057,
+                        30.57686000607349,
+                        0.6850895839659885,
+                        1.2092143507873845,
+                        4.869020866773676
+                    ],
+                    "var": [
+                        1.5754305836593323,
+                        68.42175077555159,
+                        0.2157418459072973,
+                        0.7278488079429422,
+                        11.125085584181297
+                    ],
+                    "n_samples_seen": 230510,
+                    "n_features_in": 5,
+                    "columns": [
+                        "country",
+                        "age",
+                        "new_user",
+                        "source",
+                        "total_pages_visited"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "country": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "new_user": [
+                        "scale_normal"
+                    ],
+                    "source": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "total_pages_visited": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "959b2fe0-431f-4b50-a3b6-c741af9acbc5",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5cf3f387-c39b-404e-9ce7-f5bd46a40b7f",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "794897a8-8b12-459b-a876-075f0358d7fd",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "8b317e9f-562d-48b3-bb87-a008d2e760b2",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c65bac08-3d0c-4091-9dbb-8dd805b9b8c7",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "54615c72-96b4-412c-82ba-703b44372758",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "cc988cf4-4d77-475d-ab20-8be01dac7141",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "60d5be26-4d04-43aa-bca8-0bedd95fb9cf",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "130da543-043a-4c58-95f9-4320f4216ca3",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b32f025c-01c9-49fe-833d-15f8440a1d18",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 7,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "country": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "age": [
+                    "scale_normal"
+                ],
+                "new_user": [
+                    "scale_normal"
+                ],
+                "source": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "total_pages_visited": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_4\\X.data",
+            "y_path": "AutoML_4\\y.data",
+            "results_path": "AutoML_4",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 7,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "7_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 216.0
+    },
+    "saved": [
+        "7_Default_NeuralNetwork\\learner_fold_0.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_1.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_2.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_3.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_4.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_5.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_6.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_7.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_8.neural_network",
+        "7_Default_NeuralNetwork\\learner_fold_9.neural_network"
+    ],
+    "predictions_fname": "7_Default_NeuralNetwork\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": -0.7628256782164919,
+    "train_time": 492.1535394191742,
+    "is_stacked": false,
+    "threshold": 0.49521374657504386
+}
