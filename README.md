@@ -4,7 +4,7 @@
     
 ## Video presentation
 
-[Bloc 4 | AT&T Spam Detector - Video presentation](https://www.youtube.com/watch?v=5LHZrVFVMko)
+[Bloc 3 | Walmart-Uber-Conversion rate - Video presentation](https://www.youtube.com/watch?v=5LHZrVFVMko)
 
 ## Contact
 
