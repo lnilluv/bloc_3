@@ -2,7 +2,13 @@
   
 *Supervised & Unsupervised ML*
     
-  
+## Video presentation
+
+[Bloc 4 | AT&T Spam Detector - Video presentation](https://www.youtube.com/watch?v=5LHZrVFVMko)
+
+## Contact
+
+You can contact me at **laurent.nilluv@gmail.com** 
 
 #  🗂️ Projects
 - 🏪 **Walmart Sales**
