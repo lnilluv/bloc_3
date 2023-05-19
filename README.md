@@ -1,10 +1,6 @@
 # <p align="center">Bloc 3: Jedha Certification</p>
   
 *Supervised & Unsupervised ML*
-    
-## Video presentation
-
-[Bloc 3 | Walmart-Uber-Conversion rate - Video presentation](https://www.youtube.com/watch?v=5LHZrVFVMko)
 
 ## Contact
 
