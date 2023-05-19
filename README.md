@@ -2,10 +2,6 @@
   
 *Supervised & Unsupervised ML*
 
-## Contact
-
-You can contact me at **laurent.nilluv@gmail.com** 
-
 #  🗂️ Projects
 - 🏪 **Walmart Sales**
 
